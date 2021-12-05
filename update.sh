@@ -24,7 +24,7 @@ services:
    - ironfish
   container_name: ironfish-miner
   image: ghcr.io/iron-fish/ironfish:latest
-  command: miners:start --threads=4
+  command: miners:start --threads=10
   network_mode: "host"
   restart: always
   volumes:
