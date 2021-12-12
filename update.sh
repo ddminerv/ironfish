@@ -24,7 +24,7 @@ docker-compose down
 #    - ironfish
 #   container_name: ironfish-miner
 #   image: ghcr.io/iron-fish/ironfish:latest
-#   command: miners:start --threads=22
+#   command: miners:start --threads=4
 #   network_mode: "host"
 #   restart: always
 #   volumes:
